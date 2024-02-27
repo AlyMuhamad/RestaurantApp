@@ -3,7 +3,7 @@
   margin: 12rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
+  column-gap: 3.2rem;
 }
 
 .headline {
@@ -40,8 +40,8 @@
   position: absolute;
   width: 0;
   height: 0;
-  left: 1rem;
-  bottom: -0.5rem;
+  left: 2rem;
+  bottom: 2rem;
   width: 4rem;
   height: 4rem;
   background-color: #fff;
@@ -54,8 +54,8 @@
 .testimonial:after {
   width: 2rem;
   height: 2rem;
-  left: 0.5rem;
-  bottom: -1.6rem;
+  left: 1rem;
+  bottom: 1.2rem;
   -webkit-border-radius: 1.8rem;
   -moz-border-radius: 1.8rem;
   border-radius: 1.8rem;

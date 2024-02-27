@@ -28,7 +28,7 @@ function Cards() {
                 height: 'auto',
               }}
             />
-            <div className={styles.plateName}>Rice</div>
+            <div className={styles.plateName}>French</div>
             <div className={styles.price}>
               <span className={styles.onlyLabel}>Only </span>
               30.00$
@@ -47,7 +47,7 @@ function Cards() {
                 height: 'auto',
               }}
             />
-            <div>Salad</div>
+            <div className={styles.plateName}>English</div>
             <div className={styles.price}>
               <span className={styles.onlyLabel}>Only </span>
               49.00$
@@ -66,7 +66,7 @@ function Cards() {
                 height: 'auto',
               }}
             />
-            <div>Dessert</div>
+            <div className={styles.plateName}>Asian</div>
             <div className={styles.price}>
               <span className={styles.onlyLabel}>Only </span>
               27.00$
