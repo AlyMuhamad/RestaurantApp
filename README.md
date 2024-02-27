@@ -1,6 +1,6 @@
 # RestaurantApp
 
-**[RestaurantApp](https://restaurant-iota-two.vercel.app/)** is a web app that help the food they deserve.
+**[RestaurantApp](https://restaurant-iota-two.vercel.app/)** is a web app that help people get the food they deserve.
 
 ## quick notes about the project
 
