@@ -1,0 +1,42 @@
+.section {
+  color: #fff;
+  background-color: var(--color-brand-4);
+}
+
+.content {
+  max-width: 121.5rem;
+  margin: 2rem auto 4rem;
+  padding: 8.6rem 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headline {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.email {
+  width: 50rem;
+  padding: 1rem;
+  color: #000;
+}
+
+.startBtn {
+  position: absolute;
+  right: -1rem;
+  top: 1.4rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  color: var(--color-brand-4);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-right: 2rem;
+}
+
+.input {
+  position: relative;
+}

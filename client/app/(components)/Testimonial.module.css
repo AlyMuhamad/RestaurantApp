@@ -1,0 +1,92 @@
+.section {
+  max-width: 121.5rem;
+  margin: 12rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.headline {
+  font-size: 6rem;
+}
+
+.profileInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profileText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.testimonial {
+  position: relative;
+  width: 60rem;
+  text-align: center;
+  line-height: 1.4em;
+  background-color: #fff;
+  border-radius: 3rem;
+  border-radius: 20rem;
+  padding: 3rem 4rem;
+  box-shadow: -6.1px 10.8px 20.8px hsl(0deg 0% 0% / 0.25);
+}
+
+.testimonial:before,
+.testimonial:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 1rem;
+  bottom: -0.5rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: #fff;
+  box-shadow: -7.1px 16.8px 22.8px hsl(0deg 0% 0% / 0.25);
+  -webkit-border-radius: 2.8rem;
+  -moz-border-radius: 2.8rem;
+  border-radius: 2.8rem;
+}
+
+.testimonial:after {
+  width: 2rem;
+  height: 2rem;
+  left: 0.5rem;
+  bottom: -1.6rem;
+  -webkit-border-radius: 1.8rem;
+  -moz-border-radius: 1.8rem;
+  border-radius: 1.8rem;
+}
+
+.testimonialContent {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pictureWrapper {
+  width: 7rem;
+  height: 7rem;
+  position: relative;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  border-radius: 5rem;
+  overflow: hidden;
+}
+
+.profilePic {
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
+
+.profileName {
+  font-weight: 700;
+  font-size: 1.8rem;
+}

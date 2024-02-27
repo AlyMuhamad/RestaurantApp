@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  position: relative;
+  margin: auto;
+  padding: 2rem;
+  max-width: 130rem;
+}
+
+.link {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1.6rem;
+}
+
+.link:first-child {
+  margin-right: auto;
+}
+
+.link:last-child {
+  margin-left: auto;
+  background-color: var(--color-brand-2);
+  color: #fff;
+  padding: 1.6rem 3.2rem;
+  border-radius: 2rem;
+}

@@ -1,0 +1,50 @@
+.section {
+  max-width: 121.5rem;
+  margin: 10rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.mealLayout {
+  position: relative;
+}
+
+.meal {
+  z-index: 100;
+  position: relative;
+  margin-top: 2.8rem;
+}
+
+.mealBorder {
+  position: absolute;
+  width: 29rem;
+  height: 50rem;
+  border-top-right-radius: 50rem;
+  border-bottom-right-radius: 50rem;
+  border: 5rem solid #ebd983;
+  border-left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  margin-right: 10.2rem;
+}
+
+.contentSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.headline {
+  font-size: 6rem;
+}
+
+.menuBtn {
+  font-size: 1.4rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 2rem;
+  background-color: var(--color-brand-2);
+  color: #fff;
+  margin-top: 2rem;
+}
